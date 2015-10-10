@@ -11,7 +11,7 @@ Example:
 
 ```java 
  if (operand1.getText().length() > 0 && (operand2.getText().length()> 0)) {
-                    double oper1 = Double.parseDouble(operand1.getText().toString()); //grabs value converts to string then starts to process it as a number
+                    double oper1 = Double.parseDouble(operand1.getText().toString());
                     double oper2 = Double.parseDouble(operand2.getText().toString());
 
                     double theResult = oper1 * oper2;
